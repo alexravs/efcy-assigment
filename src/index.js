@@ -1,4 +1,4 @@
-import FormComponent from "./FormComponent.js";
+import FormComponent from "./components/FormComponent.js";
 
 const oppoStatus = [
   {

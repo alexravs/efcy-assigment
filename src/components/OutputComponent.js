@@ -1,6 +1,6 @@
 export default class OutputComponent {
   constructor() {
-    this.element = document.querySelector('.output');
+    this.element = document.querySelector(".output");
   }
 
   updateValue(value) {

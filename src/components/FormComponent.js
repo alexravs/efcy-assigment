@@ -21,7 +21,9 @@ export default class FormComponent {
   }
 
   onStatusSelection(kOppoStatus) {
-    this.successInput.updateValue(kOppoStatus);
+    const oppoStatusItem = this._getStatusItem(kOppoStatus);
+
+    this.successInput.updateValue(oppoStatusItem.SUCCESS);
     this.selectedKOppoStatus = kOppoStatus;
   }
 
@@ -39,8 +41,8 @@ export default class FormComponent {
 
   _onSubmit(event) {
     event.preventDefault();
-
     const oppoStatusItem = this._getStatusItem(this.selectedKOppoStatus);
+
     this.output.updateValue(
       JSON.stringify({
         status: oppoStatusItem.K_OPPO_STATUS,

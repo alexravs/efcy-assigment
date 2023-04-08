@@ -1,6 +1,6 @@
 export default class SuccessInputComponent {
   constructor() {
-    this.element = document.getElementsByName("success")[0];
+    this.element = document.querySelector('input[name="success"]');
   }
 
   updateValue(value) {

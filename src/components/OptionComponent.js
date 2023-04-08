@@ -3,15 +3,14 @@ export default class OptionComponent {
     this.status = status;
     this.kOppoStatus = kOppoStatus;
     this.success = success;
-
     this.element = this._createElement();
   }
 
   setSelected(isSelected) {
     if (isSelected) {
-      this.element.setAttribute('selected', isSelected);
+      this.element.setAttribute("selected", isSelected);
     } else {
-      this.element.removeAttribute('selected');
+      this.element.removeAttribute("selected");
     }
   }
 

@@ -4,7 +4,6 @@ export default class SelectStatusComponent {
   constructor({ oppoStatusItems = [], onChange }) {
     this.updateSelectedOption = this.updateSelectedOption.bind(this);
     this._onChange = this._onChange.bind(this);
-
     this.element = document.getElementsByName("status")[0];
     this.onChange = onChange;
     this.options = this._populateDropdown(oppoStatusItems);
