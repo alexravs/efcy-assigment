@@ -3,7 +3,7 @@
 
 ## On the web:
 
-Here is a link to the fiddle containing the code.
+[Here](https://jsfiddle.net/alexravs/rzfde8vn/37/) is a link to the jsfiddle holding and running the code.
 
 ## Locally:
 
