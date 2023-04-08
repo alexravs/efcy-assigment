@@ -3,7 +3,8 @@
 
 ## On the web:
 
-[Here](https://jsfiddle.net/alexravs/rzfde8vn/37/) is a link to the jsfiddle holding and running the code.
+- [jsfiddle](https://jsfiddle.net/alexravs/rzfde8vn/37/)
+- [Codesandbox](https://codesandbox.io/s/gracious-worker-5fsdfg)
 
 ## Locally:
 
