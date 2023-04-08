@@ -28,5 +28,7 @@ const oppoStatus = [
   },
 ];
 
-const formComponent = new FormComponent({ oppoStatusItems: oppoStatus });
-formComponent.init();
+document.addEventListener("DOMContentLoaded", function () {
+  const formComponent = new FormComponent({ oppoStatusItems: oppoStatus });
+  formComponent.init();
+});
